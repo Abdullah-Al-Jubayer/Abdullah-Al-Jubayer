@@ -1,0 +1,133 @@
+#app {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 0;
+    background-color: rgb(250, 128, 114);
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 2px;
+    margin-right: 0;
+    color: beige;
+    font-weight: bold;
+    border: aqua;
+}
+
+header button {
+    width: 120px;
+    height: 30px;
+    margin-left: 91%;
+    margin-bottom: 10px;
+}
+
+.searchAndSort,
+.searchBox {
+    left: 75%;
+    padding: 20px;
+    width: 230px;
+    position: absolute;
+    color: rgb(250, 128, 114);
+}
+
+.searchAndSort {
+    top: 40%;
+}
+
+.pageHeader {
+    text-align: center;
+}
+
+.lesson {
+    margin-left: 25%;
+    margin-top: 2%;
+    position: relative;
+    width: 700px;
+    height: 190px;
+    border: 3px solid rgb(250, 128, 114);
+    flex-direction: row;
+}
+
+
+
+.lesson h2 {
+    font-size: 17px;
+
+    font-family: verdana;
+}
+
+.lesson h2,
+.lesson p {
+    position: relative;
+    display: flex;
+    margin-left: 80px;
+}
+
+.lessonImage {
+    position: absolute;
+    display: flex;
+    margin-left: 550px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.lesson button {
+    display: flex;
+    margin-left: 550px;
+    background-color: rgb(250, 128, 114);
+    color: white;
+    border-color: rgb(250, 128, 114);
+    border-radius: 7px;
+}
+
+.fa-plus {
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
+
+.cartProducts {
+    padding: 10px;
+    width: 180px;
+
+    margin-left: 200px;
+}
+
+.basket {
+    width: 34%;
+    padding: 10px;
+    border: 2px solid rgb(250, 128, 114);
+    border-radius: 0px;
+    margin-left: 450px;
+    padding: 30px;
+}
+
+.inputField {
+    margin-left: 150px;
+}
+
+.PhoneinputField {
+    margin-left: 93px;
+}
+
+.submitBtn {
+    margin-top: 10px;
+    margin-left: 370px;
+}
+
+.nameField {
+    margin-left: 60px;
+}
+
+.passwordField {
+    margin-left: 60px;
+}
